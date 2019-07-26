@@ -5,7 +5,7 @@ import os
 from gmaps import get_address
 
 
-HURU_USER = os.environ.get('HURU_USER','fabrica@composul.com')
+HURU_USER = os.environ.get('HURU_USER','factory@solidos.com')
 HURU_USER_PASSWORD = os.environ.get('HURU_USER_PASSWORD','huru1234')
 DEVICE = os.environ.get('DEVICE','29197302-98b2-f2a8-11a1-4030910140a0')
 TARGET_URL = os.environ.get('TARGET_URL','http://localhost:8443')
