@@ -13,7 +13,7 @@ ENDPOINT = os.environ.get('ENDPOINT','company')
 FILE_PATH = os.environ.get('FILE_PATH','company.csv')
 COMPANY_FIELDS = ['name', 'email', 'phone_region', 'phone_number', 'contact_name', 'contact_email', 'contact_phone_region', 
 'contact_phone_number', 'website', 'description', 'address_coords', 'address_street', 'address_number', 'address_complement', 
-'address_state', 'address_city', 'address_country', 'address_zip_code', 'date_created', 'updated_date', 'parent_id', 'type', 'cnpj', 'permissions']
+'address_state', 'address_city', 'address_country', 'address_zip_code', 'date_created', 'updated_date', 'parent_id', 'type', 'cnpj', 'permissions','social_name']
 ADDRESS_KEYS = ['name', 'address_country', 'address_state',  'address_city', 'address_street', 'address_number', 'address_complement', 'address_zip_code']
 
 
